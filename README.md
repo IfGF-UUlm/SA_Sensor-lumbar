@@ -13,7 +13,7 @@ These results demonstrate the promising potential of IMU-based data and deep lea
 - [`IMU+DL_regression.png`](./IMU+DL_regression.png): Figure 2: Deep learning prediction of assessment scores compared to actual scores
 - [`LICENSE`](./LICENSE): License for this project (MIT License, as per the project's uniform approach)
 - [`Prediction-TabPFN_lumbar.ipynb`](./Prediction-TabPFN_lumbar.ipynb): Deep learning prediction from IMU data using [TabPFN](https://github.com/PriorLabs/TabPFN)
-- [`SAh_OKIE_DB_20250303.xlsx`](./SAh_OKIE_DB_20250303.xlsx): Data from the (observation and AI development study)[https://github.com/IfGF-UUlm/SA_OKIE] of the SURGE-Ahead project
+- [`SAh_OKIE_DB_20250303.xlsx`](./SAh_OKIE_DB_20250303.xlsx): Data from the [observation and AI development study](https://github.com/IfGF-UUlm/SA_OKIE) of the SURGE-Ahead project
 - [`catalog.csv`](./catalog.csv): Catalog of patient and movement diary data
 - [`diary_regression.png`](./diary_regression.png): Figure 1: Gait detection performance compared to activity level
 - [`results.csv`](./results.csv): Extracted IMU features as tabular data
