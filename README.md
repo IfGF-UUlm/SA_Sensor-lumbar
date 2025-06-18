@@ -4,7 +4,7 @@ This GitHub repository contains the code for analyzing lumbar inertial measureme
 ## Project Overview
 The project leverages wearable sensor technology and deep learning to objectively monitor and predict functional recovery after surgery in older adults.
 A secondary analysis of data from 39 patients (mean age 79.05 years) undergoing surgery was performed, utilizing IMU sensors worn at the lumbar region for up to five postoperative days.
-Deep learning models ([TabPFN](https://github.com/PriorLabs/TabPFN)) were applied to predict Charité Mobility Index (CHARMI) and Barthel Index scores, as well as discharge destination, achieving R² values of 0.65 and 0.70 for CHARMI and Barthel Index prediction, respectively, and 82% accuracy for discharge destination prediction.
+Deep learning models (TabPFN) were applied to predict Charité Mobility Index (CHARMI) and Barthel Index scores, as well as discharge destination, achieving R² values of 0.65 and 0.70 for CHARMI and Barthel Index prediction, respectively, and 82% accuracy for discharge destination prediction.
 These results demonstrate the promising potential of IMU-based data and deep learning for automated functional assessment and discharge decision support in this vulnerable population.
 
 ## Repository Structure
@@ -26,7 +26,7 @@ These results demonstrate the promising potential of IMU-based data and deep lea
 - Open [`Diaries.ipynb`](./Diaries.ipynb) in GitHub to inspect movement diary analysis
 - Open [`Prediction-TabPFN_lumbar.ipynb`](./Prediction-TabPFN_lumbar.ipynb) in GitHub to inspect deep learning prediction from IMU data
 
-**Note:** It is possible to download or clone the repository and create a virtual environment using conda: `conda env create -f environment.yml`
+**Note:** It is possible to download or clone the repository and create a virtual environment using conda: `conda env create -f environment.yml` \
 However, due to file size limitations the raw IMU data is not publicly available, meaning [`Analysis.ipynb`](./Analysis.ipynb) cannot be rerun. 
 
 #### The analysis notebook utilizes:
