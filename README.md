@@ -16,6 +16,7 @@ These results demonstrate the promising potential of IMU-based data and deep lea
 - [`SAh_OKIE_DB_20250303.xlsx`](./SAh_OKIE_DB_20250303.xlsx): Data from the [observation and AI development study](https://github.com/IfGF-UUlm/SA_OKIE) of the SURGE-Ahead project
 - [`catalog.csv`](./catalog.csv): Catalog of patient and movement diary data
 - [`diary_regression.png`](./diary_regression.png): Figure 1: Gait detection performance compared to activity level
+- [`environment.yml`](./environment.yml): Virtual environment used for the analysis
 - [`results.csv`](./results.csv): Extracted IMU features as tabular data
 - [`results_IMU.csv`](./results_IMU.csv): Results from IMU exploratory analysis for feature selection
 - [`results_diary.csv`](./results_diary.csv): Results from the movement diary analysis
